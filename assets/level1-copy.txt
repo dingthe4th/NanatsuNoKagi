@@ -1,0 +1,22 @@
+400 400 //dimensions of the level
+100 100 //x y of endpoint if a player reaches this, it means he finished the level 
+8  //number of walls
+0 0 5 NORTH //x-value y-value length(5*40 pixels) directions(NORTH WEST SOUTH EAST)
+0 0 10 WEST
+0 400 10 NORTH
+400 0 10 WEST
+240 0 4 NORTH
+0 300 2 NORTH
+120 300 4 NORTH
+200 0 8 WEST
+3//number doors
+80 300 1 //x y number of keys to open door
+360 300 2
+0 200 3
+3//keys
+100 100 //x y of keys
+360 360
+360 10
+1//enemies
+210 200 1 1 HUNTER//x y dx dy type(HUNTER PALANG)
+10 10//starting position of player 
